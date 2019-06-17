@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
 
 require_relative '../config/environment'
+<<<<<<< HEAD
 end_of_game = ""
 until end_of_game == "quit"
   puts "Welcome To TicTacToe"
@@ -43,3 +44,6 @@ until end_of_game == "quit"
   game = Game.new(player_1, player_2, board)
   game.play
 end
+=======
+
+>>>>>>> 1ed25fd559a9b796aa884c3685fce746b8ea8a0e
